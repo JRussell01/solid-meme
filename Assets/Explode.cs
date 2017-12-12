@@ -1,21 +1,13 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class HT_Explode : MonoBehaviour
+public class Explode : MonoBehaviour
 {
 
     public GameObject explosion;
     public ParticleSystem[] effects;
-    GameObject player;
-    GameObject bomb;
 
-    private void Start()
-    {
-        bomb = gameObject;
-        player = GameObject.Find("Ship");
-    }
-
-    void OnTriggerEnter2D(Collider2D collision)
+    void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.tag == "Player")
         {
@@ -26,8 +18,7 @@ public class HT_Explode : MonoBehaviour
                 effect.Stop();
                 Destroy(effect.gameObject, 1.0f);
             }
-            Destroy(bomb);
-            Destroy(player);
+            Destroy(gameObject);
         }
     }
 }

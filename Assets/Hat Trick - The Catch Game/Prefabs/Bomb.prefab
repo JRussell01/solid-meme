@@ -41,7 +41,6 @@ GameObject:
   - component: {fileID: 58957444612948282}
   - component: {fileID: 50568297362347760}
   - component: {fileID: 114978950970044618}
-  - component: {fileID: 114487416765840412}
   m_Layer: 0
   m_Name: Bomb
   m_TagString: Bomb
@@ -169,17 +168,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sortingLayerName: Sparks
   sortingOrder: 1
---- !u!114 &114487416765840412
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1157644192314374}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe0aa6e8a936a1048b3f6067c80d77b9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &114978950970044618
 MonoBehaviour:
   m_ObjectHideFlags: 1

@@ -141,7 +141,7 @@ RectTransform:
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 95.25, y: 34.6}
+  m_SizeDelta: {x: 115.78, y: 34.6}
   m_Pivot: {x: 1, y: 1}
 --- !u!114 &24559439
 MonoBehaviour:
@@ -175,7 +175,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Time Left:
+  m_Text: 'Time Survived:
 
     ??'
 --- !u!222 &24559440
@@ -516,7 +516,7 @@ GameObject:
   - component: {fileID: 805460489}
   m_Layer: 8
   m_Name: Ship
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1176,7 +1176,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cam: {fileID: 0}
   ball: {fileID: 1157644192314374, guid: 29fb36b004289cd4b9e78ac3336f0440, type: 2}
-  timeleft: 60
+  timeleft: 0
   timerText: {fileID: 24559439}
   gameOverText: {fileID: 486699546}
   restartButton: {fileID: 1880562867}
