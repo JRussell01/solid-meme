@@ -24,6 +24,7 @@ GameObject:
   - component: {fileID: 114226529140056928}
   - component: {fileID: 61963649569915388}
   - component: {fileID: 114978327978385458}
+  - component: {fileID: 114779510571842424}
   m_Layer: 8
   m_Name: Glenos-G_160_bullet
   m_TagString: Untagged
@@ -38,7 +39,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1309811143535656}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.48, z: 0}
+  m_LocalPosition: {x: 0, y: 0.77, z: 0}
   m_LocalScale: {x: 0.03, y: 0.04, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
@@ -58,7 +59,7 @@ Rigidbody2D:
   m_Mass: 0.03525541
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 0
+  m_GravityScale: -4
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -100,6 +101,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe0aa6e8a936a1048b3f6067c80d77b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &114779510571842424
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1309811143535656}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aef28a4218833ac42ab782ec4fd99308, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timer: 1
 --- !u!114 &114978327978385458
 MonoBehaviour:
   m_ObjectHideFlags: 1
